@@ -1,0 +1,24 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "javascript",
+  "main": "index.html",
+  "dependencies": {
+    "lite-server": "^2.2.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Naveen-NN/javascript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Naveen-NN/javascript/issues"
+  },
+  "homepage": "https://github.com/Naveen-NN/javascript#readme"
+}
