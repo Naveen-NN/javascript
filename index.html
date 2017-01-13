@@ -1,26 +1,28 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Javscript Example</title>
-<script src="/scripts/utils/htmlextensions.js"></script>
-</head>
-
-<body>
-    <script>
-
-    function Person(){
-        this.id = null;
-        this.name = null;
-        this.age = null,  
-        this.designation  = null;
-
-    }
-
-    var p  = new Person();  
-    p.id  = 1; p.name= "naveen"; p.age  = 34; p.designation  = "developer";
-
-    document.display(p);
+<title>Javscript Example</title>
+<!-- HTML Comment  -->  
+<!--
+    Library/Framework(JQuery/Knockout/Angular) should be  
+    included in header tag 
+-->  
+<script src="/scripts/utils/htmlextensions.js"></script> 
+<script> 
 </script>
-</body>
 
+</head>
+<body>
+    <h1>Hai Raghu</h1>
+    <noscript>
+        This page  requires javascript,  please enable from your  
+        browser tool options
+    </noscript>
+    <h1>Welcome to Javascript</h1>
+    <!-- 
+        inject all scripts which access dom or make the network calls 
+        before the end tag of the body
+    --> 
+</body>
 </html>

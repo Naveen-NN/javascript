@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/scripts/utils/htmlextensions.js"></script> 
+</head>
+<body>
+<script>
+    // variables declared without var key word  will be global variables
+    // 1. You can access them anywhere within javascript program 
+    "use strict" 
+    var x = 5;
+    var y = 6;
+    var z = x + y;
+
+    var result = a();  
+
+    b(result);
+
+    function a(){
+    
+       var value  = "Naveen";
+
+       return value;
+    }
+    
+    function b(value){
+    	document.display("Name: " + value);
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="/scripts/utils/htmlextensions.js"></script> 
+</head>
+<body>
+<script>
+    var list1 = [];  
+    
+    var list2 = [10, 20, 30, 40];  
+    
+    var list3 = []; 
+    
+    document.display("Item count of array list1 : " + list1.length);
+    
+    document.display("Item count of array list2 : " + list2.length);
+    
+    list3.push(100);
+    
+    list3.push("Naveen");
+    
+    list3.push({"name": "Naveen" });
+    
+    var value  =  list3.pop()
+
+    document.display("Item count of array list3 : " + list3.length);
+
+    document.display("value popped from list3 : " + JSON.stringify(value));
+
+</script>
+</body>
+</html>
